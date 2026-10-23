@@ -34,6 +34,7 @@ if _BUNDLE_HINTS:
     import cfs_seeds
     import cfs_birdnest
     import cfs_drone
+    import cfs_rock
 
 MENU_ITEMS = [
     {"display": 1, "module": "cfs_pull_down"},
@@ -41,4 +42,5 @@ MENU_ITEMS = [
     {"display": 3, "module": "cfs_seeds"},
     {"display": 4, "module": "cfs_birdnest"},
     {"display": 5, "module": "cfs_drone"},
+    {"display": 6, "module": "cfs_rock"},
 ]
