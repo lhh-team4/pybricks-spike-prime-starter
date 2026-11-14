@@ -30,6 +30,7 @@ comments inside the MENU_ITEMS list are not kept.
 _BUNDLE_HINTS = False
 if _BUNDLE_HINTS:
     import cfs_pull_down
+    import fungis
     import cfs_ants
     import cfs_seeds
     import cfs_birdnest
@@ -38,9 +39,10 @@ if _BUNDLE_HINTS:
 
 MENU_ITEMS = [
     {"display": 1, "module": "cfs_pull_down"},
-    {"display": 2, "module": "cfs_ants"},
-    {"display": 3, "module": "cfs_seeds"},
-    {"display": 4, "module": "cfs_birdnest"},
-    {"display": 5, "module": "cfs_drone"},
-    {"display": 6, "module": "cfs_rock"},
+    {"display": 2, "module": "fungis"},
+    {"display": 3, "module": "cfs_ants"},
+    {"display": 4, "module": "cfs_seeds"},
+    {"display": 5, "module": "cfs_birdnest"},
+    {"display": 6, "module": "cfs_drone"},
+    {"display": 7, "module": "cfs_rock"},
 ]
